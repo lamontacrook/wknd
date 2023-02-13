@@ -1,9 +1,10 @@
 main .slider-list-wrapper {
-  width: 100%;
+  min-width: 100%;
 }
 
 main .slider-list {
   overflow: auto;
+  scroll-behavior: smooth;
   width: 100%;
 }
 
@@ -21,5 +22,5 @@ main .slider-list > div > div[style*="background"] {
 }
 
 main .slider-list > div > div[style*="background"]:last-child {
-  margin-right: 0px;
+  margin-right: 0
 }
