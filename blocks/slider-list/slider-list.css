@@ -1,0 +1,25 @@
+main .slider-list-wrapper {
+  width: 100%;
+}
+
+main .slider-list {
+  overflow: auto;
+  width: 100%;
+}
+
+main .slider-list > div {
+  display: flex;
+  flex-direction: row;
+}
+
+main .slider-list > div > div[style*="background"] {
+  min-width:191px;
+  height: 296px;
+  margin-right: 32px;
+  text-align: left;
+  padding: 12px;
+}
+
+main .slider-list > div > div[style*="background"]:last-child {
+  margin-right: 0px;
+}
