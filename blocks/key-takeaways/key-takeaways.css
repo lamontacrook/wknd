@@ -1,0 +1,26 @@
+main .key-takeaways {
+  width: 50%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+main .key-takeaways h4 {
+  background-color: var(--heading-highlight-color);
+  padding: 20px 10px;
+  color: white;
+  margin: 0;
+}
+
+main .key-takeaways > div {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+main .key-takeaways .blue-bar {
+  background-color: var(--heading-highlight-color);
+  min-width: 70px;
+  height: 160px;
+}
